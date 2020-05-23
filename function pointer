@@ -11,7 +11,7 @@ int f2(int num)
 	return num * num * num;
 }
 int (*pf1)(int);
-int (*pf(int num))(int pow2)
+int (*pf(int num))(int pow2)//哦，忘记写注释了，已经看不懂了
 {
 	std::cout << num << std::endl;
 	return f2;
